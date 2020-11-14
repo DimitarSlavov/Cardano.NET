@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Cardano.Wallet.Rest.Api</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Cardano.Core\Cardano.Core.csproj" />
+  </ItemGroup>
+
+</Project>

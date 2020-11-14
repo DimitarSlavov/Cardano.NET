@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardano.Core", "Cardano.Core\Cardano.Core.csproj", "{636BC3B3-A64E-4CAD-94B8-46DA23C24BC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardano.Explorer.Rest.Api", "Cardano.Explorer.Rest.Api\Cardano.Explorer.Rest.Api.csproj", "{F5464C97-C58A-49F4-9851-19811C0D7AEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardano.Explorer.Rest.Api.Tests", "Cardano.Explorer.Rest.Api.Tests\Cardano.Explorer.Rest.Api.Tests.csproj", "{5A38E213-D09D-4E83-8B95-316F12C9618C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardano.Wallet.Rest.Api", "Cardano.Wallet.Rest.Api\Cardano.Wallet.Rest.Api.csproj", "{77DBAEF9-1AC2-43B2-8A59-5DCEF068A202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cardano.Wallet.Rest.Api.Tests", "Cardano.Wallet.Rest.Api.Tests\Cardano.Wallet.Rest.Api.Tests.csproj", "{42A85A98-52FF-448D-9E34-2681B850AA5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{636BC3B3-A64E-4CAD-94B8-46DA23C24BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636BC3B3-A64E-4CAD-94B8-46DA23C24BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636BC3B3-A64E-4CAD-94B8-46DA23C24BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636BC3B3-A64E-4CAD-94B8-46DA23C24BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5464C97-C58A-49F4-9851-19811C0D7AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5464C97-C58A-49F4-9851-19811C0D7AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5464C97-C58A-49F4-9851-19811C0D7AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5464C97-C58A-49F4-9851-19811C0D7AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A38E213-D09D-4E83-8B95-316F12C9618C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A38E213-D09D-4E83-8B95-316F12C9618C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A38E213-D09D-4E83-8B95-316F12C9618C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A38E213-D09D-4E83-8B95-316F12C9618C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DBAEF9-1AC2-43B2-8A59-5DCEF068A202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DBAEF9-1AC2-43B2-8A59-5DCEF068A202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DBAEF9-1AC2-43B2-8A59-5DCEF068A202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DBAEF9-1AC2-43B2-8A59-5DCEF068A202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A85A98-52FF-448D-9E34-2681B850AA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A85A98-52FF-448D-9E34-2681B850AA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A85A98-52FF-448D-9E34-2681B850AA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A85A98-52FF-448D-9E34-2681B850AA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F233D6A7-AE31-4D5B-8AC9-C2E77B3783AA}
+	EndGlobalSection
+EndGlobal
